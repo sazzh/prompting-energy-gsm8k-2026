@@ -1,0 +1,25 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Large local inference assets
+Model/*.gguf
+llama/
+
+# Runtime logs
+*.log
+Results/Logs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
